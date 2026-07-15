@@ -71,9 +71,6 @@ Open the repository as a project, then right-click `src/qmbase` and choose
 | `runme06_..._Z1p1_FinalTable.py`     | Hypothetical ion, Z = 1.1 |
 | `runme07_..._Z1_FinalTable.py`       | H⁻ (Z = 1); confirms no bound outer electron |
 
-All numerical results are checked at runtime by asserts that catch deviations
-to ~1e-13.
-
 
 ## Preprint
 
