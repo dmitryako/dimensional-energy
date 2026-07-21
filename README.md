@@ -89,7 +89,7 @@ Dmitry A. Konovalov
 
 ```bibtex
 @misc{konovalov2025dimensional,
-  title        = {Dimensional Energy: A New Framework for Quantum Many-Body Systems},
+  title        = {Bound States of One-Dimensional Helium on the Half-Line},
   author       = {Dmitry A. Konovalov},
   year         = {2025},
   publisher    = {Research Square},
