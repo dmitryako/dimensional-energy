@@ -76,7 +76,7 @@ Open the repository as a project, then right-click `src/qmbase` and choose
 
 This work is available as a preprint:
 
-**Dimensional Energy: A New Framework for Quantum Many-Body Systems**  
+**Bound States of One-Dimensional Helium on the Half-Line**  
 Dmitry A. Konovalov  
 
 [![ResearchSquare](https://img.shields.io/badge/ResearchSquare-Preprint-blue)](https://www.researchsquare.com/article/rs-9602948/v1)
@@ -88,7 +88,7 @@ Dmitry A. Konovalov
 ## How to Cite
 
 ```bibtex
-@misc{konovalov2025dimensional,
+@misc{konovalov2025,
   title        = {Bound States of One-Dimensional Helium on the Half-Line},
   author       = {Dmitry A. Konovalov},
   year         = {2025},
