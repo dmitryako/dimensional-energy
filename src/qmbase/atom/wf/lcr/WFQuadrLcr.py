@@ -211,10 +211,24 @@ class WFQuadrLcr(WFQuadrLr):
         # intercept = f1 - slope * x1
         intercept = f1 - slope * r1
         log.dbg("intercept =", intercept)
-        # x0_cross = -intercept / slope  # y=0 = slope * x0_cross + intercept
-        r0_cross = -intercept / slope  # y=0 = slope * x0_cross + intercept
+        # try:
+        #     r0_cross = -intercept / slope  # y=0 = slope * x0_cross + intercept
+        # except Exception as e:
+        #     print("intercept=", intercept)
+        #     print("slope=", slope)
+        #     r0_cross = None
+
+        # try:
+        #     with np.errstate(all='raise'):
+        #         r0_cross = -intercept / slope
+        # except FloatingPointError as e:
+        #     print("intercept =", intercept)
+        #     print("slope     =", slope)
+        #     print("caught    =", e)
+        #     r0_cross = None
+
         # log.dbg("x0_cross =", x0_cross)
-        log.dbg("r0_cross NOT USED!! =", r0_cross)  # todo <--- not used!
+        # log.dbg("r0_cross NOT USED!! =", r0_cross)  # todo <--- not used!
         # Integrate from -∞ to x_min ~ limit x→-∞ (if slope>0, diverges)
         # Usually unsuitable unless slope<0 and f→0.
         # corr_lin = (x_min - x0_cross) * f1 / 2.
