@@ -7,16 +7,50 @@ Atomic spectra, field laws, and quantum systems across changing dimensions.
 - `src/qmbase/` — core solver library: Laguerre basis, LCR
   (logarithmic-coordinate representation) quadrature grids, Hamiltonian
   assembly, and diagonalization.
-- `papers/2026_he_1d_halfline/` — self-contained scripts that reproduce the
-  energies, tables, and figures of the paper below.
+- `papers/2026b_he_2d_gauss/` — scripts for *Radial models of helium and atomic hydrogen in two and three dimensions*.
+- `papers/2026_he_1d_halfline/` — scripts for *Bound States of One-Dimensional Helium on the Half-Line*.
 
-## Paper
+## Papers and Preprints
 
-This repository reproduces the calculations in:
+This repository reproduces the calculations in the following papers and preprints
 
 > D. A. Konovalov, *Bound States of One-Dimensional Helium on the Half-Line*,
 > submitted to The European Physical Journal Plus (2026).
 <!-- Add the DOI here on acceptance. -->
+
+**Radial models of helium and atomic hydrogen in two and three dimensions**  
+Dmitry A. Konovalov [![ResearchSquare](https://img.shields.io/badge/ResearchSquare-Preprint-blue)](https://www.researchsquare.com/article/rs-10237331/v1)
+**DOI:** [10.21203/rs.3.rs-10237331/v1](https://doi.org/10.21203/rs.3.rs-10237331/v1)
+
+**Bound States of One-Dimensional Helium on the Half-Line**  
+Dmitry A. Konovalov [![ResearchSquare](https://img.shields.io/badge/ResearchSquare-Preprint-blue)](https://www.researchsquare.com/article/rs-9602948/v1)
+**DOI:** [10.21203/rs.3.rs-9602948/v1](https://doi.org/10.21203/rs.3.rs-9602948/v1)
+
+---
+
+## How to Cite
+
+```bibtex
+@misc{konovalov2026b,
+  title        = {Radial models of helium and atomic hydrogen in two and three dimensions},
+  author       = {Dmitry A. Konovalov},
+  year         = {2026},
+  publisher    = {Research Square},
+  doi          = {10.21203/rs.3.rs-10237331/v1},
+  url          = {https://doi.org/10.21203/rs.3.rs-10237331/v1}
+}
+```
+
+```bibtex
+@misc{konovalov2025,
+  title        = {Bound States of One-Dimensional Helium on the Half-Line},
+  author       = {Dmitry A. Konovalov},
+  year         = {2025},
+  publisher    = {Research Square},
+  doi          = {10.21203/rs.3.rs-9602948/v1},
+  url          = {https://doi.org/10.21203/rs.3.rs-9602948/v1}
+}
+```
 
 ## Requirements
 
@@ -59,6 +93,14 @@ python runme01_makeFigs_v260710c_He1d_LgrrLcrAnti_Test_OK.py
 Open the repository as a project, then right-click `src/qmbase` and choose
 **Mark Directory as → Sources Root**. Run any script under `papers/`.
 
+## Scripts (`papers/2026b_he_2d_gauss`)
+
+| Script              | Purpose                                                                |
+|---------------------|------------------------------------------------------------------------|
+| `runme01_Table1.py` | Table-1: Validation of the intrinsic 2D logarithmic-potential spectrum |
+| `runme02_Table2.py` | Table-2: Lowest one-electron radial energies comparing the ordinary 3D |
+
+
 ## Scripts (`papers/2026_he_1d_halfline`)
 
 | Script | Purpose |
@@ -72,31 +114,7 @@ Open the repository as a project, then right-click `src/qmbase` and choose
 | `runme07_..._Z1_FinalTable.py`       | H⁻ (Z = 1); confirms no bound outer electron |
 
 
-## Preprint
 
-This work is available as a preprint:
-
-**Bound States of One-Dimensional Helium on the Half-Line**  
-Dmitry A. Konovalov  
-
-[![ResearchSquare](https://img.shields.io/badge/ResearchSquare-Preprint-blue)](https://www.researchsquare.com/article/rs-9602948/v1)
-
-**DOI:** [10.21203/rs.3.rs-9602948/v1](https://doi.org/10.21203/rs.3.rs-9602948/v1)
-
----
-
-## How to Cite
-
-```bibtex
-@misc{konovalov2025,
-  title        = {Bound States of One-Dimensional Helium on the Half-Line},
-  author       = {Dmitry A. Konovalov},
-  year         = {2025},
-  publisher    = {Research Square},
-  doi          = {10.21203/rs.3.rs-9602948/v1},
-  url          = {https://doi.org/10.21203/rs.3.rs-9602948/v1}
-}
-```
 
 ## License
 
