@@ -81,11 +81,11 @@ pip install -r requirements.txt
 Each `runmeXX` script adds `src/qmbase` to `sys.path` automatically, so no
 `PYTHONPATH` setup is needed — clone, install, and run.
 
-### From the terminal
+### From the terminal, example:
 
 ```bash
-cd papers/2026_he_1d_halfline
-python runme01_makeFigs_v260710c_He1d_LgrrLcrAnti_Test_OK.py
+cd papers/2026b_he_2d_gauss
+python runme01_Table1.py
 ```
 
 ### In PyCharm
