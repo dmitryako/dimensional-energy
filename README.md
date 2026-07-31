@@ -14,9 +14,11 @@ Atomic spectra, field laws, and quantum systems across changing dimensions.
 
 This repository reproduces the calculations in the following papers and preprints
 
-> D. A. Konovalov, *Bound States of One-Dimensional Helium on the Half-Line*,
-> submitted to The European Physical Journal Plus (2026).
-<!-- Add the DOI here on acceptance. -->
+[//]: # (> D. A. Konovalov, *Bound States of One-Dimensional Helium on the Half-Line*,)
+
+[//]: # (> submitted to The European Physical Journal Plus &#40;2026&#41;.)
+
+[//]: # (<!-- Add the DOI here on acceptance. -->)
 
 **Radial models of helium and atomic hydrogen in two and three dimensions**  
 Dmitry A. Konovalov [![ResearchSquare](https://img.shields.io/badge/ResearchSquare-Preprint-blue)](https://www.researchsquare.com/article/rs-10237331/v1)
