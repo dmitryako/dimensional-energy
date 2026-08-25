@@ -24,7 +24,12 @@ This repository reproduces the calculations in the following papers and preprint
 Dmitry A. Konovalov [![ResearchSquare](https://img.shields.io/badge/ResearchSquare-Preprint-blue)](https://www.researchsquare.com/article/rs-10237331/v1)
 **DOI:** [10.21203/rs.3.rs-10237331/v1](https://doi.org/10.21203/rs.3.rs-10237331/v1)
 
-**Bound States of One-Dimensional Helium on the Half-Line**  
+
+**Konovalov, D.A. Bound states of one-dimensional helium on the half-line.** 
+Eur. Phys. J. Plus 141, 967 (2026).
+**DOI:** [10.1140/epjp/s13360-026-08186-3](https://doi.org/10.1140/epjp/s13360-026-08186-3)
+
+**PREPRINT: Bound States of One-Dimensional Helium on the Half-Line**  
 Dmitry A. Konovalov [![ResearchSquare](https://img.shields.io/badge/ResearchSquare-Preprint-blue)](https://www.researchsquare.com/article/rs-9602948/v1)
 **DOI:** [10.21203/rs.3.rs-9602948/v1](https://doi.org/10.21203/rs.3.rs-9602948/v1)
 
@@ -44,8 +49,21 @@ Dmitry A. Konovalov [![ResearchSquare](https://img.shields.io/badge/ResearchSqua
 ```
 
 ```bibtex
-@misc{konovalov2025,
+@misc{konovalov2026-He1Dp,
   title        = {Bound States of One-Dimensional Helium on the Half-Line},
+  author       = {Dmitry A. Konovalov},
+  year         = {2026},
+  journal    = {Eur. Phys. J. Plus},
+  volume    = {141},
+  page    = {967},
+  doi          = {10.1140/epjp/s13360-026-08186-3},
+  url          = {https://doi.org/10.1140/epjp/s13360-026-08186-3}
+}
+```
+
+```bibtex
+@misc{konovalov2025,
+  title        = {PREPRINT: Bound States of One-Dimensional Helium on the Half-Line},
   author       = {Dmitry A. Konovalov},
   year         = {2025},
   publisher    = {Research Square},
