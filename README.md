@@ -119,6 +119,7 @@ Open the repository as a project, then right-click `src/qmbase` and choose
 |---------------------|------------------------------------------------------------------------|
 | `runme01_Table1.py` | Table-1: Validation of the intrinsic 2D logarithmic-potential spectrum |
 | `runme02_Table2.py` | Table-2: Lowest one-electron radial energies comparing the ordinary 3D |
+| `runme0X_TableN.py` | Table-N: etc                                                           |
 
 
 ## Scripts (`papers/2026_he_1d_halfline`)
