@@ -45,7 +45,7 @@ Dmitry A. Konovalov [![ResearchSquare](https://img.shields.io/badge/ResearchSqua
 ```bibtex
 @article{konovalov2026radial,
   title        = {Radial Models of Helium and Atomic Hydrogen in Two and Three Dimensions.},
-  author       = {Dmitry A. Konovalov},
+  author       = {Dmitry Konovalov},
   year         = {2026},
   journal      = {Few-Body Syst},
   volume       = {67},
